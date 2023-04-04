@@ -1,6 +1,9 @@
 # tbl2star
 
 
+[![PyPI version](https://badge.fury.io/py/tbl2star.svg)](https://pypi.org/project/tbl2star/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/tbl2star.svg)](https://pypi.org/project/tbl2star/)
+
 
 A tool converting DYNAMO table files(.tbl) to RELION star files(.star)
 
