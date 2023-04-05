@@ -85,12 +85,12 @@ Pay attention to the following points:
 
 ### Parameters
 
-- `tiltseries_path`: `-ts`. Path to dictionary containing tiltseries/tomograms in RELION pattern. For example, path/to/your/tomograms.
+- `tiltseries_path`: `-ts`. Path to dictionary containing tiltseries/tomograms in RELION pattern. For example, `path/to/your/tomograms`.
 - `dynamotable_path`: `-tbl`. Path to dictionary containing all of your dynamotables. Default is to use the current folder. All of these coordinates will be used, so please ensure that they correspond to the tomograms.
 - `binning`: `-b`. Binning in DYNAMO table. Default is 1.
-- `pattern`: `-p`. Pattern to recognize tomogram names. Default is TS/ts.You can input a string so that the first set of numbers after the string is recognized and used as a criterion to distinguish the tomogram. For instance, if your tomogram folder names are 'Rubisco_30_A_001_XX', 'Rubisco_30_A_002_XX'..., you can set the pattern to A so the program can recognize them as 1,2,...Note that strings and numbers must be separated by "_".
-- `relionstarfile_name`: `-s`. Name of relion star file. Default is "AllCoordinates.star". For example, you can input 'GCBcoordinates.star'. Do not forget the file suffix .star.
-- `relionstarfile_path`: `-sp`. Path of relion star file. Default is the current folder. For example, Path/to/your/save/dictionary.
+- `pattern`: `-p`. Pattern to recognize tomogram names. Default is `TS/ts`.You can input a string so that the first set of numbers after the string is recognized and used as a criterion to distinguish the tomogram. For instance, if your tomogram folder names are `Rubisco_30_A_001_XX`, `Rubisco_30_A_002_XX`..., you can set the pattern to A so the program can recognize them as 1,2,...Note that strings and numbers must be separated by `_`.
+- `relionstarfile_name`: `-s`. Name of relion star file. Default is `AllCoordinates.star`. For example, you can input `GCBcoordinates.star`. Do not forget the file suffix `.star`.
+- `relionstarfile_path`: `-sp`. Path of relion star file. Default is the current folder. For example, `Path/to/your/save/dictionary`.
 
 
 
