@@ -1,9 +1,12 @@
 [tool.poetry]
 name = "tbl2star"
-version = "1.0.0"
+version = "1.0.1"
 description = "A tool converting DYNAMO table files(.tbl) to RELION star files(.star)"
 authors = ["Zhen Huang <hzvictor@zju.edu.cn>"]
 readme = "README.md"
+repository = "https://github.com/ZhenHuangLab/tbl2star.git"
+documentation = "https://github.com/ZhenHuangLab/tbl2star#readme"
+
 
 [tool.poetry.scripts]
 tbl2star = 'tbl2star.main:app'
